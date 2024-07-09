@@ -1,17 +1,17 @@
 
+
 *{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family:'Poppins',sans-serif ;
+      font-family:'Space Grotesk',sans-serif ;
       
 }
  
  body {
-    background-image: url(image/pic.jpg);
-    padding: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(image/wp6897807.webp);
+    height: 100vh;
+    background-size: cover;
     height: 1000px;
 }
 
@@ -20,13 +20,13 @@
     height: 100%;
     width: 180px;
     position:absolute;
-    background-color: rgb(228, 228, 228);
+    background-color: #faf7ef;
     transition: 0,5s ease ;
     transform: translateX(-180px);
 } 
 
 h1{
-    color: #007a1a;
+    color: #5f8e36;
     font-weight: 800;
     text-align: right;
     padding: 10px 0;  
@@ -48,7 +48,7 @@ ul li a{
 }
 ul li:hover a{
     color: #ffffff;
-    background-color: #007a1a;
+    background-color: #5f8e36;
 }
 
 ul li a i {
@@ -64,7 +64,7 @@ input{
     position: absolute;
     height: 30px;
     width: 30px;
-    top: 34px;
+    top: 15px;
     left: 10px;
     z-index:1 ;
     cursor: pointer;
@@ -76,7 +76,7 @@ input{
     position: absolute;
     height: 2px;
     width: 20px;
-    background-color:#007a1a;
+    background-color:#5f8e36;
     border-radius: 50px;
     transition: 0,3s ease;
 }
@@ -115,4 +115,44 @@ input:checked ~ .slide{
     transform: translateX(0);
     box-shadow: 0 0 15px #000;
 
+}
+
+.logo{
+   
+    height: 100px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo img {
+    border: #fdfdfd 3px solid;
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+}
+.logo p{
+    padding: 10px;
+    text-align: center;
+    color: #5f8e36;
+   font-size: 30px;
+}
+
+#top {
+    height: 500px;
+    width: 100%;
+    background-image: url(image/wp6897807.webp);
+    background-size: cover;
+}
+ #middle {
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+}
+ #bottom{
+height: 500px;
+width: 100%;
+
+background-color: brown;
 }
