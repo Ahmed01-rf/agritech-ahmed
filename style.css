@@ -9,7 +9,7 @@
 }
  
  body {
-    background-image: url(image/wp6897807.webp);
+    background-color: antiquewhite;
     height: 100vh;
     background-size: cover;
     height: 1000px;
@@ -146,13 +146,98 @@ input:checked ~ .slide{
     background-size: cover;
 }
  #middle {
-    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
     width: 100%;
-    background-color: aqua;
+    background-color: #5f8e36;
 }
  #bottom{
 height: 500px;
 width: 100%;
 
 background-color: brown;
+}
+
+.wrapper{
+    height: 48%;
+    width: 48%;
+    background-image: url(image/wp6897807.webp);
+    background-size: cover;
+}
+.top-left{
+    border-top-left-radius: 100%;
+}
+.top-right{
+    border-top-right-radius: 100%;
+}
+.bottom-left{
+    border-bottom-left-radius: 100%;
+}
+.bottom-right{
+    border-bottom-right-radius: 100%;
+}
+.container{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.definition-cercle{
+    height: 400px;
+    background-color: #07834f;
+    width: 400px;
+    
+    margin: 50px;
+    
+}
+.cercle1 {
+    border-top-left-radius: 100%;
+}
+.cercle2 {
+    border-top-right-radius: 100%;
+}
+.cercle3 {
+    border-bottom-left-radius: 100%;
+}
+.cercle4 {
+    border-bottom-right-radius: 100%;
+}
+#definitions{
+
+    background-color: #faf7ef;
+}
+.def-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#diff{
+    width: 100%;
+    height:800px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.image_diff{
+    width: 50%;
+    
+}
+.content-title {
+    font-size: 50px;
+    text-align:center ;
+    margin-left: 420PX;
+    color: #5f8e36;
+
+}
+.para {
+    font-size: 35px;
+    padding: 25px;
+    color: white;
 }
